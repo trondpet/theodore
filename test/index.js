@@ -153,3 +153,8 @@ test('bad json data', async t => {
 
   app.close()
 })
+
+test('what\'s the purpose?', t => {
+  t.plan(1)
+  t.equal('should even bother?', false)
+})
